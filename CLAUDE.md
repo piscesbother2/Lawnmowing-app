@@ -28,7 +28,7 @@ what happened.
 - Verify both MCPs at the start of every session via `list_projects` calls.
 
 ## Stack (decided — do not relitigate)
-- Frontend: Next.js 15 App Router on Vercel
+- Frontend: Next.js (App Router) on Vercel — scaffolded at v16.2 (whatever `create-next-app@latest` gives is fine; do not pin)
 - Mobile: PWA first (installable). Native (Expo) only if push/camera force it.
 - DB / Auth / Storage / Edge Functions: Supabase
 - Billing: Stripe Subscriptions + Customer Portal
